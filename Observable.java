@@ -1,4 +1,4 @@
-package exercise_4;
+package exercise_5;
 
 public interface Observable {
     void addObserver(Observer o);
