@@ -5,12 +5,12 @@ public class Main {
 
         UserController controller = new UserController();
 
-        controller.registerUser("Alice", "alice@example.com");
+        controller.registerUser("Sahilpreet", "Sahilpreet539@icloud.com");
 
         controller.manageSubscription("subscribe", 1, null,
-            "https://example.com", Commchannel.EMAIL, 5);
+            "https://ecampuas.com", Commchannel.EMAIL, 5);
 
-        System.out.println("\n--- Check cycle ---");
+        System.out.println("\n Check cycle ");
         controller.runChecks();
 
         controller.manageSubscription("cancel", 1, "REG-1", null, null, 0);
